@@ -3,6 +3,7 @@
 /* цвет текста на кнопках color: #FFFFFF; */
 /* цвет текста для hover и фокуса color: #2196F3; */
 /* цвет кнопок в портфолио color: #F5F4FA */
+/* цвет футера color: #2F303A */
 
 :root {
   --primary-text-color: #757575;
@@ -10,6 +11,7 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --portfolio-bg-color: #f5f4fa;
+  --footer-color: #2f303a;
 }
 
 html {
@@ -49,6 +51,17 @@ body {
 }
 .logo .element {
   color: var(--accent-color);
+}
+.logo.footer {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-family: Raleway, sans-serif;
+  color: var(--primary-bg-color);
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 /* Site-nav */
 .site-nav .link {
@@ -185,7 +198,16 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
+.team img {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.team p {
+  margin-top: 0;
+}
 .team-title {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -214,6 +236,7 @@ body {
 /* Footer */
 .footer {
   color: var(--primary-bg-color);
+  background-color: var(--footer-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
