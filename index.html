@@ -16,8 +16,8 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header class="page-header">
-      <nav class="site-nav container">
+    <header class="page-header container">
+      <nav class="site-nav">
         <a href="/index.html" class="logo"
           ><span class="element">Web</span> Studio</a
         >
@@ -30,21 +30,21 @@
           </li>
           <li class="item"><a href="" class="link">Контакты</a></li>
         </ul>
-        <ul class="cont-nav list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link">
-              <img src="./images/mail.svg" alt="иконка почты" />
-              info@devstudio.com
-            </a>
-          </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link">
-              <img src="./images/phone.svg" alt="иконка телефона" />
-              +380961111111
-            </a>
-          </li>
-        </ul>
       </nav>
+      <ul class="cont-nav list">
+        <li class="item">
+          <a href="mailto:info@devstudio.com" class="link">
+            <img src="./images/mail.svg" alt="иконка почты" />
+            info@devstudio.com
+          </a>
+        </li>
+        <li class="item">
+          <a href="tel:+380961111111" class="link">
+            <img src="./images/phone.svg" alt="иконка телефона" />
+            +380961111111
+          </a>
+        </li>
+      </ul>
     </header>
     <main>
       <!-- Герой -->
@@ -55,7 +55,7 @@
       <!-- Преимущества -->
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Наши преимущества</h2>
+          <h2 class="section-title visually-hidden">Наши преимущества</h2>
           <ul class="feature-list list">
             <li class="item">
               <img src="./images/vector1.svg" alt="антенна" />
@@ -138,7 +138,7 @@
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team list">
-            <li class="bg">
+            <li class="card">
               <img
                 src="./images/portrait1.jpg"
                 class="team-img"
@@ -171,7 +171,7 @@
                 </li>
               </ul>
             </li>
-            <li class="bg">
+            <li class="card">
               <img
                 src="./images/portrait2.jpg"
                 class="team-img"
@@ -204,7 +204,7 @@
                 </li>
               </ul>
             </li>
-            <li class="bg">
+            <li class="card">
               <img
                 src="./images/portrait3.jpg"
                 class="team-img"
@@ -237,7 +237,7 @@
                 </li>
               </ul>
             </li>
-            <li class="bg">
+            <li class="card">
               <img
                 src="./images/portrait4.jpg"
                 class="team-img"
@@ -352,9 +352,9 @@
               >
             </li>
           </ul> -->
-          <div>
+          <div class="sign">
             <p class="title"><b>Подпишитесь на рассылку</b></p>
-            <a href="" class="button secondary">Подписаться</a>
+            <button class="button secondary" type="button">Подписаться</button>
           </div>
         </div>
         <p class="copyright">&#169;2020 | Developed by GoIT Students</p>
