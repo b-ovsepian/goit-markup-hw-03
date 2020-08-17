@@ -401,12 +401,19 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+address {
+  font-style: normal;
+}
 .address {
   margin-right: 69px;
 }
 .page-footer {
   display: flex;
   align-items: baseline;
+}
+.page-footer .title {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .footer .title {
   font-weight: 700;
